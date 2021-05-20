@@ -1,5 +1,18 @@
 .square{
-  height: 100px;
-  width: 100px;
-  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(86, 75, 210);
+}
+.gameBoard{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 620px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 100px;
+}
+h1{
+  text-align: center;
+  color: blueviolet;
 }
