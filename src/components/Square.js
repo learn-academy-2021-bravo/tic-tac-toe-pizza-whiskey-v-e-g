@@ -5,7 +5,9 @@ class Square extends Component{
 
 
 handleClick = () =>{
-  alert("hi")
+  this.props.playerIcon(this.props.index)
+  this.props.player()
+
 }
 
 
